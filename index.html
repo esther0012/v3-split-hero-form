@@ -288,16 +288,11 @@ footer{background:var(--forest);padding:60px 64px 36px;}
       <label>Capacidade de investimento mensal</label>
       <select name="capacidadeInvestimento" required>
         <option value="">Selecione uma opção</option>
-        <option value="Até R$2.000">Até R$2.000</option>
+        <option value="De R$1.000 a R$2.000">De R$1.000 a R$2.000</option>
         <option value="De R$2.000 a R$3.000">De R$2.000 a R$3.000</option>
         <option value="De R$3.000 a R$5.000">De R$3.000 a R$5.000</option>
         <option value="Acima de R$5.000">Acima de R$5.000</option>
       </select>
-    </div>
-
-    <div class="fg">
-      <label>Email</label>
-      <input type="email" name="email" placeholder="seu@email.com" required>
     </div>
 
     <div class="fg">
@@ -491,7 +486,7 @@ footer{background:var(--forest);padding:60px 64px 36px;}
 </div>
 
 <section class="about">
-  <img src="GRUPO-REFERENCIA-e1768935872433 (1).webp" alt="Equipe Referência Capital">
+  <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80" alt="Equipe RFC">
   <div>
     <h2>Somos o ecossistema que acelera seu crescimento patrimonial.</h2>
     <p>A Referência Capital é um ecossistema financeiro focado na democratização e aceleração do crescimento patrimonial.</p>
@@ -618,7 +613,6 @@ footer{background:var(--forest);padding:60px 64px 36px;}
       const payload = {
         nome: form.elements['nome'] ? form.elements['nome'].value : '',
         telefone: telefoneCompleto,
-        email: form.elements['email'] ? form.elements['email'].value : '',
         capacidadeInvestimento: form.elements['capacidadeInvestimento'] ? form.elements['capacidadeInvestimento'].value : '',
 
         produto: 'Consórcio Exterior',
